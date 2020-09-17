@@ -38,9 +38,10 @@
 		</plugins>
 	</build>
 
+	<!-- scm below used with release plugin if ssh configured properly -->
 	<scm>
 		<developerConnection>scm:git:git@github.com:tryjude/bb-pet-clinic.git</developerConnection>
-	  <tag>bb-pet-clinic-0.0.1</tag>
-  </scm>
+		<tag>bb-pet-clinic-0.0.1</tag>
+    </scm>
 
 </project>
